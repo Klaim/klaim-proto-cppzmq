@@ -1,0 +1,26 @@
+int_libs = # Interface dependencies.
+imp_libs = # Implementation dependencies.
+import int_libs += klaim-proto-zmq%lib{zmq}
+
+lib{cppzmq}: origin/{hxx ixx txx}{*} $imp_libs $int_libs
+
+# Build options.
+#
+cxx.poptions =+ "-I$out_root" "-I$src_base/origin"
+
+# Export options.
+#
+lib{cppzmq}:
+{
+  cxx.export.poptions = "-I$out_root" "-I$src_base/origin"
+  cxx.export.libs = $int_libs
+}
+
+# Install into the cppzmq/ subdirectory of, say, /usr/include/
+# recreating subdirectories.
+#
+{hxx ixx txx}{*}:
+{
+  install         = include/
+  install.subdirs = false
+}

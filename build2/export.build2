@@ -1,0 +1,6 @@
+$out_root/
+{
+  include cppzmq/
+}
+
+export $out_root/cppzmq/$import.target
