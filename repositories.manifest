@@ -8,5 +8,5 @@ summary: cppzmq project repository
 
 :
 role: prerequisite
-location: https://github.com/Klaim/klaim-proto-zmq.git
+location: https://github.com/Klaim/klaim-proto-libzmq.git
 
