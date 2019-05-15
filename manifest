@@ -1,5 +1,5 @@
 : 1
-name: klaim-proto-libzmq
+name: klaim-proto-cppzmq
 version: 4.3.0-a.0.z
 summary: cppzmq packaged for prototyping, do not use in production!!!
 license: TODO
@@ -7,4 +7,4 @@ url: https://github.com/zeromq/cppzmq
 email: jlamotte@softbankrobotics.com
 depends: * build2 >= 0.10.0
 depends: * bpkg >= 0.10.0
-depends: klaim-proto-cppzmq ^4.3.0-
+depends: klaim-proto-libzmq ^4.3.0-
