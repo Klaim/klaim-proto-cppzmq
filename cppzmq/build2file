@@ -1,6 +1,6 @@
 int_libs = # Interface dependencies.
 imp_libs = # Implementation dependencies.
-import int_libs += klaim-proto-zmq%lib{zmq}
+import int_libs += klaim-proto-libzmq%lib{zmq}
 
 lib{cppzmq}: origin/{hxx ixx txx}{*} $imp_libs $int_libs
 
