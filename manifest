@@ -7,4 +7,4 @@ url: https://github.com/zeromq/cppzmq
 email: jlamotte@softbankrobotics.com
 depends: * build2 >= 0.10.0
 depends: * bpkg >= 0.10.0
-depends: klaim-proto-libzmq ^4.3.0-
+depends: libzmq ^4.3.0-
