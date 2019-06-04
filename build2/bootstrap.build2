@@ -1,4 +1,4 @@
-project = klaim-proto-cppzmq
+project = cppzmq
 
 using version
 using config

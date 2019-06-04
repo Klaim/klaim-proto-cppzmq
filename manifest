@@ -1,5 +1,5 @@
 : 1
-name: klaim-proto-cppzmq
+name: cppzmq
 version: 4.3.0-a.1.z
 summary: cppzmq packaged for prototyping, do not use in production!!!
 license: TODO

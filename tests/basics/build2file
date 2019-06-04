@@ -1,3 +1,3 @@
-import libs = klaim-proto-cppzmq%lib{cppzmq}
+import libs = cppzmq%lib{cppzmq}
 
 exe{driver}: {hxx ixx txx cxx}{**} $libs testscript{**}
